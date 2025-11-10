@@ -147,7 +147,7 @@ import {
   GoogleGenerativeAI,
   HarmCategory,
   HarmBlockThreshold,
-} from 'npm:@google/generative-ai@0.16.0';
+} from 'npm:@google/generative-ai@0.21.0';
 
 // Get the API key from Supabase secrets
 const GEMINI_API_KEY = Deno.env.get('GEMINI_API_KEY');
@@ -161,7 +161,7 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 // Configure the model with safety settings
 const model = genAI.getGenerativeModel({
-  model: 'gemini-1.5-flash',  // Updated model name
+  model: 'gemini-2.5-flash',  // Latest Gemini 2.5 Flash model (non-live version)
   generationConfig: {
     temperature: 0.7,
     topK: 40,
