@@ -6,7 +6,9 @@ Justice, Simulated. Truth, Revealed.
 
 AI Judge is a full-stack web application that simulates a complete legal trial process. Users can submit cases with arguments from two opposing sides, receive AI-generated verdicts, engage in a rebuttal phase, and obtain final judgments. The system uses Google's Gemini AI to analyze legal arguments and provide detailed verdicts with reasoning, confidence scores, and legal precedents.
 
-Live Demo: https://ai-judge-nine.vercel.app/
+**Live Demo:** https://ai-judge-nine.vercel.app/
+
+**Video Walkthrough:** https://youtu.be/2T5eqJMzJpA
 
 ## Application Flow
 
@@ -729,6 +731,7 @@ This project is licensed under the MIT License.
 **gaurav1Nn**
 - GitHub: https://github.com/gaurav1Nn
 - Live Demo: https://ai-judge-nine.vercel.app/
+- Video Walkthrough: https://youtu.be/2T5eqJMzJpA
 
 ---
 
